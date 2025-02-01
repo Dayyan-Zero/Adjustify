@@ -1,0 +1,32 @@
+{   "parent": "block/block",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "block/cactus_side",
+        "bottom": "block/cactus_bottom",
+        "top": "block/cactus_mini_top",
+        "side": "block/cactus_mini_side"
+    },
+    "elements": [
+        {   "from": [ 0, 4, 0 ],
+            "to": [ 16, 12, 16 ],
+            "faces": {
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
+                "up":   { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "up" }
+            }
+        },
+        {   "from": [ 0, 0, 4 ],
+            "to": [ 16, 16, 12 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" }
+            }
+        },
+        {   "from": [ 4, 0, 0 ],
+            "to": [ 12, 16, 16 ],
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" }
+            }
+        }
+    ]
+}
