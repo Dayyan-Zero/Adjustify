@@ -1,6 +1,13 @@
 {
-   "pack":{
-      "pack_format":6,
-      "description":"Refined Default Textures ~by Insanial"
-   }
+    "pack": {
+        "supported_formats": {"min_inclusive": 6, "max_inclusive": 100},
+        "pack_format": 15,
+        "description":
+        [
+            {"text": "Refined Default Textures", "color": "#FFFFFF"},
+            "\n",
+            {"text": "By ", "color": "#AAAAAA"},
+            {"text": "Insanial", "color": "#FFAA00"}
+        ]
+    }
 }
